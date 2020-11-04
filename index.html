@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body onload="questionElement(0)">
+    <div class="card">
+        <div class="card-header" id="card-main">
+            Quiz Aplication!
+            <span class="timer">02:00</span>
+        </div>
+        <div class="card-body">
+                <h5 class="card-title" id="questionElement">Special title treatment</h5>
+                <p class="list-group-item list-group-item-action optionElement" onclick="activeFunction(this)">Cras justo odio</p>
+                <p class="list-group-item list-group-item-action optionElement" onclick="activeFunction(this)">Dapibus ac facilisis in</p>
+                <p class="list-group-item list-group-item-action optionElement" onclick="activeFunction(this)">Vestibulum at eros</p>
+                <p class="list-group-item list-group-item-action optionElement" onclick="activeFunction(this)">Vestibulum at eros</p>
+        </div>
+        <div class="card-footer text-muted">
+            <a href="#" class="btn btn-info" id="nextbtn" onclick="nextQuestion()">Next Question</a>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

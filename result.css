@@ -1,0 +1,61 @@
+body{
+    background-image: url(img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#result{
+    width: 600px;
+    padding-left: 60px;
+    margin-top: 0px;
+    color:red;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+#heading{
+    margin-top:-30px;
+}
+
+img{
+    width: 50%;
+    margin-top: 50px;
+    height: 70%;
+
+}
+h1{
+    color: black;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+}
+.card-title{
+    font-size: 39PX;
+    display: inline;
+}
+
+#buttom{
+    float: right;
+    width: 50%;
+}
+#buttom1{
+    float: left;
+    width: 50%;
+}
+
+
+#footerid{
+    width: 100%;
+    margin-top: 40px;
+    height: 20px;
+    background-color: gray;
+}
+.containers{
+    background-color:teal;
+    margin-top: 88px;
+    height: 30px;
+}
+#trybtn{
+    margin-top: -15px;
+}

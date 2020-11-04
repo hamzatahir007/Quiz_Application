@@ -1,0 +1,43 @@
+body{
+    background-image:url(img/pic.png);
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 70%;
+    margin-top: 50px;
+}
+p:active{
+    background-color: yellow;
+}
+.card-header{
+    font-weight: 600;
+    /* background-image: url(img/pic1.jpg); */
+    color: white;
+    font-size: 20px;
+}
+#card-main{
+    background-color: teal;
+}
+.timer{
+    float: right;
+}
+.btn{
+    float: right;
+}
+
+.card-title{
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.card-body p.active{
+    background-color: teal;
+    color: white;
+    border: none;
+}
+p:hover:not(.active) {
+    background-color: teal;
+    color: white;
+}

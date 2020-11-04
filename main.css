@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#footerid{
+    width: 100%;
+    margin-top: 100px;
+    height: 40px;
+    background-color: gray;
+}
+.containers{
+    background-color:teal;
+    margin-top: 117px;
+    height: 30px;
+}
